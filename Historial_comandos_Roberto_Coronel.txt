@@ -1,0 +1,285 @@
+ls
+ll
+cd repogit/
+ll
+ls -l
+ls -l /home/vagrant/.ssh/
+pwd
+ls -l ../.ssh/
+pwd
+ll
+ssh-keygen --help
+ssh-keygen -t ed25519
+ssh-keygen -t ed25519
+ls -l ../.ssh/
+cat ../.ssh/id_ed25519.pub
+git clone git@github.com:RobC96/TP_AySO.git
+ll
+cd TP_AySO/
+ls -la
+tree
+apt install tree
+snap install tree
+tree
+echo 'hola mundo'
+echo 'hola mundo' > unarchivo
+ls -l
+cat unarchivo 
+git status
+echo "hola $(whoami)"
+git status
+git add unarchivo 
+git status
+git commit -m "add: primer commit"
+git config --global user.name "RobC96"
+git commit -m "add: primer commit"
+git status
+git push
+git log
+git log -online
+git log --online
+git log--online
+git log -help
+#[Bgit log -help
+history
+cd
+man open
+man man
+man open
+man man
+man 2
+man man
+man open
+man ls
+man -k ddir
+sudo su
+grep -E 'usuario|vagr' /etc/passwd
+ls -l /home
+sudo su
+man useradd
+env |grep -iE 'home|pwd|shel'
+cd repogit/
+sudo useradd -m -s /bin/bash -c "usuario bien creado" 2do_usuario
+grep -E 'usuario|vagr' /etc/passwd
+ls -l /home/
+id
+id 2do_usuario
+sudo groupadd profesores
+man groupadd
+grep profesores /etc/group
+sudo useradd -m -s /bin/bash -G profesores 3er_usuario
+grep profesores /etc/group
+sudo useradd -m -s /bin/bash -g profesores 4to_usuario
+grep profesores /etc/group
+sudo useradd -m -s /bin/bash -G profesores 5to_usuario
+grep profesores /etc/group
+history |grep groupadd
+history |grep useradd
+cat /etc/group
+cd
+grep 4to_usuario /etc/group
+id 4to_usuario
+ls -l /home/
+id
+man passwd
+sudo passwd 4to_usuario
+su - 4to_usuario 
+mkdir lele
+cd lele/
+> arch
+ls -l
+echo "" > arch2
+ls -l
+cat arch
+cat arch2
+chown vagrant.profesores arch
+ll
+cd
+locate arch
+sudo install tree
+sudo apt install tree
+sudo apt update
+sudo apt install plocate
+ls -l repogit/UTN-FRA_SO_onBording/Extras/
+locate Fundament
+echo "hola" > archivo_nuevo_prueba_locate
+locate archivo_nuevo_prue
+locate rchivo_nuevo_prue
+sudo updatedb
+locate rchivo_nuevo_prue
+find . -name *rchivo_nuevo_prue* 
+find . -name *rchivo_nuevo_prue* -exec bash  {} \;
+find . -name *rchivo_nuevo_prue* -exec bash {} \;
+find . -name *rchivo_nuevo_prue* -exec ls -l {} \;
+find . -name *rchivo_nuevo_prue* -exec cat {} \;
+id 4to_usuario 
+id 2do_usuario 
+man sudo usermod 
+sudo usermod -a -G profesores 2do_usuario 
+id 2do_usuario 
+id
+ll
+cd lele/
+ll
+w
+who
+ls -l /dev/ |grep pts
+echo "hola" >> /dev/pts/0
+echo "arafuee" >> /dev/pts/0
+vim
+cd lele/
+ll
+mkdir dir{1..4}
+ll
+echo "hola" > dir{1..4}
+echo "hola" > dir{1..4}/arch
+echo "hola" > dir1/arch
+echo "hola" > dir4/arch
+echo "hola" > dir2/arch
+echo "hola" > dir3/arch
+cat dir1/arch 
+ls -ld dir1
+ls -l dir1/arch 
+chmod 664 dir1
+ls -l dir1/arch 
+cat dir1/arch
+ls -l dir1
+ls -l dir1 -d
+ls -l dir1/
+cat dir1/arch 
+sudo cat dir1/arch 
+ll
+chmod 331 dir2
+ls -ld dir2
+ls -l dir2
+cat dir2/arch 
+ls -ld dir2/
+ls -l dir2/
+cat dir2/arch
+ls -ld dir3/
+chmod 275 dir3 
+ls -ld dir3/
+ls -l dir3
+ls -l dir3/
+cat dir3/arch
+echo "lala" > dir3/arch2
+echo "lala" | tee dir3/arch2
+echo "lala" | sudo tee dir3/arch2
+sudo ls -l dir3
+cd
+pwd
+git clone https://github.com/upszot/UTN-FRA_SO_Bash.git
+ls
+cd UTN-FRA_SO_Bash/
+ls
+lll
+ll
+./variables_parametros/variables_parametros.sh hola1 chau2 pepe3
+cd Bucle_for/
+ll
+cat 2_for_cmd_lista.
+cat 2_for_cmd_lista.sh
+cat 2_for_cmd_lista.txt 
+vim 2_for_cmd_lista.sh
+cat 2_for_cmd_lista.txt | grep -v ^#
+cd
+echo "col1 col2 col2"
+echo "col1 col2 col2" | awk '{ print }'
+echo "col1 col2 col2" | awk '{ print $2 }'
+ls -l /etc/shadow
+sudo grep vagr /etc/shadow
+sudo grep vagr /etc/shadow | awk '{print $2 }' 
+sudo grep vagr /etc/shadow | awk -F ':' '{print $2 }' 
+sudo useradd -m -s /bin/bash -p '$y$j9T$f7V.J8o8/5JXqaI3xUKKQ0$oND2iaEkOI22AcHc9kfKwylXqBi.VixFO/cPGuxMD..' 6to_usuario
+su - 6to_usuario 
+echo "$HOME"
+echo '$HOME'
+sudo grep -E 'vagr|6to_usuario' /etc/shadow | awk -F ':' '{print $2 }' 
+vagrant -h
+telnet github.com 22
+ping www.google.com
+pwd
+ls
+cd repogit/
+ls
+cd TP_AySO/
+ls
+ll
+ls -l
+cat /etc/os-release
+man grep
+grep home_url /etc/os-release
+grep HOME_URL /etc/os-release
+grep -i home_url /etc/os-release
+whoami
+echo "vagrant=$(whoami)" > datos_usuario.txt
+ls -l
+rm datos_usuario.txt 
+ls -l
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls -l
+ll
+git add.
+git add .
+git config --global rcoronel1996@gmail.com
+git status
+git config --global user.email rcoronel1996@gmail.com
+git config --global user.name RobC96
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+grep
+man grep
+grep head -n1 cpuinfo /proc head
+grep cpuinfo /proc
+grep head -n1 cpuinfo
+ls -l /proc
+grep head -n1 /proc/cpuinfo
+grep tail -n1 /proc/cpuinfo
+grep "model name" /proc/cpuinfo 
+grep "model name" /proc/cpuinfo | head -n1
+ll
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+cat datos_usuario.txt 
+git add .
+git status
+git commit -m "feat: Añadiendo información de CPU"
+git status
+man grep
+grep -v "nologin" /etc/passwd
+man sort
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k 7
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k 7 >> lista_ordenada
+ll
+cat lista_ordenada 
+git add lista_ordenada 
+git status
+git commit -m "ADD:Listado de usuarios ordenada"
+git status
+man -k dump | grep traffic
+echo "tcpdump" > comando_dump_net
+echo 'Comando de búsqueda: man -k dump | grep traffic' >> comando_dump_net 
+cat comando_dump_net 
+git add comando_dump_net 
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+ll 
+cat <<EOF >> README.md
+Nombre: Roberto Miguel Coronel
+División: 314
+Turno: Noche
+EOF
+
+cat README.md 
+git add README.md 
+git status
+git commit -m "docs: Agregar información personal en README.md"
+git status
+ls -l /home
+ls -l /home/vagrant
+ll ./vagrant
+ll /home/vagrant
+unset HISTFILE
+nano ~/.bash_history
+ll /home/vagrant/repogit/
+export HISTFILE=~/.bash_history
+ll
+history -a
