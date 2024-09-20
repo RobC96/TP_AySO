@@ -1,1 +1,2 @@
 Usuario=vagrant
+model name	: AMD A10-5800K APU with Radeon(tm) HD Graphics
